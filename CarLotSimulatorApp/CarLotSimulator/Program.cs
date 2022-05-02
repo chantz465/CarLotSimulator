@@ -15,6 +15,17 @@ namespace CarLotSimulator
 
 
             //Now that the Car class is created we can instanciate 3 new cars
+            var myMistake = new Car();
+            myMistake.Make = "audi";
+            myMistake.Model = "A4";
+            myMistake.Year = 1999;
+            myMistake.EngineNoise = " vroom rattle rattle";
+            myMistake.HonkNoise = "Honk but in German";
+            myMistake.IsDrivable = false;
+
+
+            var best
+
             //Set the properties for each of the cars
             //Call each of the methods for each car
 
